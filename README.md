@@ -1,32 +1,45 @@
-📖 Overview
-This repository contains a comprehensive data science analysis of 44,629 coffee transactions from the Ethiopian Commodity Exchange (ECX), covering January 2018 to March 2021. The project uncovers key market dynamics in Ethiopia's coffee trade—one of the world's leading coffee producers, where coffee accounts for 30–35% of export revenues and supports over 15 million livelihoods.
-Using Python-based tools, the analysis reveals insights like a strong negative price-volume correlation (r = -0.88, indicating bulk discounts), a 44% premium for Harar coffee (2,036.15 ETB/quintal), seasonal peaks in February (1,501.08 ETB/quintal), and a Prophet forecast predicting a surge to 2,194 ETB/quintal by June 2021. It addresses data quality challenges (e.g., 40% "Unknown" grades) and provides recommendations for producers, exporters, and policymakers.
-Developed as part of an INSA internship by Besufekad Ayalkbet (Data Science, Debre Birhan University). Contact: besufekadbabibaw@gmail.com.
-🚀 Features
+# Ethiopian Coffee Trade Analysis
 
-Exploratory Data Analysis (EDA): Statistical summaries, correlations, and trends using pandas and scipy.
-Visualizations: Interactive plots for pricing by origin, monthly seasonality, and warehouse volumes.
-Forecasting: Time-series predictions with fbprophet (5.2% error rate).
-Reporting: Professional LaTeX document with tables, figures, and stakeholder recommendations.
-Key Insights:
+[![GitHub stars](https://img.shields.io/github/stars/bawcode/ethiopian-coffee-trade-analysis)](https://github.com/bawcode/ethiopian-coffee-trade-analysis/stargazers)
+[![License](https://img.shields.io/github/license/bawcode/ethiopian-coffee-trade-analysis)](https://github.com/bawcode/ethiopian-coffee-trade-analysis/blob/main/LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 
-Harar premium: 44% above average.
-Gimbi logistics hub: 1.92M kg handled.
-Grade volatility from 40% "Unknown" classifications.
+## Overview
+This repository contains a comprehensive data science analysis of **44,629 coffee transactions** from the **Ethiopian Commodity Exchange (ECX)**, spanning **January 2018 to March 2021**. The project uncovers critical market dynamics in Ethiopia's coffee trade — the birthplace of coffee — where it accounts for **30–35% of export revenues** and supports **over 15 million livelihoods**.
 
+Using Python tools, the analysis reveals:
+- Strong **negative price-volume correlation** (`r = -0.88`) → bulk discounts
+- **44% premium** for **Harar coffee** at **2,036.15 ETB/quintal**
+- **Seasonal peak in February** at **1,501.08 ETB/quintal**
+- **Gimbi** as top logistics hub handling **1.92M kg**
+- **Prophet forecast**: Price surge to **2,194 ETB/quintal by June 2021**
+- Data challenge: **40% "Unknown" grades** causing volatility
 
+Developed during an **INSA internship** by **Besufekad Ayalkbet** (Data Science, Debre Birhan University).  
+Contact: [besufekadbabibaw@gmail.com](mailto:besufekadbabibaw@gmail.com)
 
-🛠️ Tech Stack
+---
 
-Language: Python 3.8+
-Core Libraries:
+## Features
+- **Exploratory Data Analysis (EDA)** with `pandas` & `scipy`
+- **Interactive visualizations** (monthly trends, origin pricing, warehouse volumes)
+- **Time-series forecasting** using `fbprophet` (5.2% error)
+- **Professional LaTeX report** with tables, figures, and citations
+- Actionable **recommendations** for producers, exporters, and policymakers
 
-Data Processing: pandas, numpy
-Statistics: scipy
-Visualization: matplotlib, seaborn
-Forecasting: fbprophet
+---
 
+## Tech Stack
+- **Language**: Python 3.8+
+- **Libraries**:
+  - `pandas`, `numpy` – data processing
+  - `scipy` – statistical analysis
+  - `matplotlib`, `seaborn` – visualization
+  - `fbprophet` – forecasting
+- **Environment**: Google Colab (Jupyter notebooks)
+- **Reporting**: LaTeX (`sn-jnl` template)
+- **Version Control**: Git & GitHub
 
-Environment: Google Colab (Jupyter notebooks)
-Reporting: LaTeX (sn-jnl template)
-Other: Git for version control
+---
+
+## Repository Structure
